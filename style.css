@@ -1,0 +1,37 @@
+body {
+    background: linear-gradient(rgba(100,100,100,0.5), white);
+    background-repeat: no-repeat;
+    height: auto;
+    line-height: 1.8;
+}
+
+h1 {
+    text-align: center;
+}
+
+ul {
+    text-align: left;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    padding-bottom: 3px;;
+}
+
+li { 
+    padding-bottom: 3px;
+}
+a {
+    text-decoration: none;
+}
+
+a:visited { 
+    color: rgba(0,200,250, 0.8);
+    text-decoration: none;
+}
+
+a:hover { 
+    color: rgba(255, 150, 100,0.8);
+    text-decoration: underline overline black;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 5px;
+    padding-bottom: 3px;
+}
